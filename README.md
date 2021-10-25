@@ -24,7 +24,5 @@ ___
 * Remove illegal potion effects from players
 * AntiSpam and AntiAdvertisment
 * Active devlopment
-* Configureable /help command
-* Configureable and toggleable join messages
 * Patch for future client packet elytra fly
 * Remove falling block server crashers
