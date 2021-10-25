@@ -30,12 +30,6 @@ public class JoinEvent implements Listener {
 				}
 
 			}
-			if (plugin.getConfigBoolean("FirstJoin.Enabled")) {
-				if (!player.hasPlayedBefore()) {
-					Bukkit.getServer().broadcastMessage(ChatColor.translateAlternateColorCodes('&',
-							plugin.getConfig().getString("FirstJoin.Message").replace("{Player}", player.getName())));
-				}
-			}
 		} catch (Error | Exception throwable) {
 		}
 	}
