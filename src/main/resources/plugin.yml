@@ -7,10 +7,6 @@ website: https://www.xera.ca
 softdepend:
   - SalC1Dupe
 commands:
-  say:
-    description: e
-  open:
-    description: e
   crash:
     description: e
   uuid:
