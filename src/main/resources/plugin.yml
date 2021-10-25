@@ -1,7 +1,7 @@
 name: LeeesExploitFixer
 version: 3.0.5
 main: org.l2x9.l2x9core.Main
-authors: [ 254n_m, Leeewith3Es ]
+authors: [ 254n_m, Leeewith3Es, Dreeam ]
 description:  ${project.description}
 website: https://www.xera.ca
 softdepend:
@@ -13,21 +13,13 @@ commands:
     description: e
   crash:
     description: e
-  speed:
-    description: e
   uuid:
-    description: e
-  uptime:
     description: e
   lef:
     description: e
   discord:
     description: e
   world:
-    description: e
-  help:
-    description: e
-  spawn:
     description: e
   toggleconnectionmessages:
     description: Toggles on / off connection messages for the sender of the command
