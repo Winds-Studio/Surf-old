@@ -23,16 +23,6 @@ Nether:
   Bottom-Layer: 0
   Bottom-message: '&6&l[&b&lLEF&6&l]&6 &6The nether bottom has been disabled due to lag'
   top-bottom-do-damage: true
-#Raidus around spawn to disable /home in
-#Set 0 to disable
-Spawn:
-  Raidus: 500
-  Message: "&6[&b7b&37t&6] You must be&r&c %r% &r&6 blocks from spawn to use /home "
-#Message to send to the server when a player first joins
-#Use {Player} as a place holder for the players name
-FirstJoin:
-  Enabled: true
-  Message: '&6[&b7b&37t&6] &c{Player}&6 has joined the &b7b&37t &6for the first time'
 #Elytra/redstone disable TPS values keep in mind this is a double so it can be like 13.2255
 #Set 0 to disable 
 Elytra:
@@ -61,7 +51,7 @@ Elytra:
   SendMessage: true
   Message: "&6&l[&b&lLEF&6&l]&6&6 PacketElytraFly is currently disabled due to it causing tons of lag"
 Redstone:
-  Disable-TPS: 15
+  Disable-TPS: 17
 #Misc config shit
 #Message to send when a player tries to use a 32k or strength 255
 IllegalDamage:
@@ -120,29 +110,6 @@ Antiillegal:
     - "PORTAL"
     - "STRUCTURE_BLOCK"
     - "STRUCTURE_VOID"
-#Help menu use & for colors
-Help:
-  #Enable the help menu from l2x9core
-  Enabled: false
-  List:
-    - "&6-----------------------------------------------------"
-    - "&3/ignore <name> to ignore a player."
-    - "&3/ignorelist to list ignored players."
-    - "&3/r <message> to reply to the last person that messaged you."
-    - "&3/l <message> to message the last person that you messaged."
-    - "&3/w <name> <message> OR /msg <name> <message> to pm a player."
-    - "&3/toggleconnectionmsgs to toggle join and leave messages."
-    - "&3/togglechat to toggle the default chat."
-    - "&3/toggledeathmsg to toggle all death messages."
-    - "&3/kill to kill yourself."
-    - "&3/stats to get world size and how many players have joined."
-    - "&3/playtime to see a player's total playtime."
-    - "&3/mostplaytime to show top playtimes."
-    - "&3/discord to join the L2X9 discord."
-    - "&6-----------------------------------------------------"
-#Formatting for the say command use {message} as a place holder for the message use & for colours
-#Colour codes also work in the message
-SayCommandFormat: "&6&l[&b&lLEF&6&l]&6 {message}"
 #water / lava flowing disable tps this is useful on new servers with lots of block physics updates that cause lag
 #Set -1 to disable
 BlockPhysics-disable-tps: 15
@@ -151,11 +118,6 @@ ChestLagFix:
   MaxOpensPerSecond: 16
   KickMessage: "&6&l[&b&lLEF&6&l]&6&c [AntiChestLag]&r&6 You have lost connection to the server"
   RemoveUnicodeBooks: false
-#These are the connection messages for when a player joins / leaves
-#Use & for colours and %player% as a placeholder for the players name
-Connection:
-  Player-Join-Message: "&7%player% &7joined"
-  Player-Leave-Message: "&7%player% &7left"
 #Max amount of any entity listed here per chunk
 #The formatting for this is <entity>:<amount> (i.e pig:20)
 #A list of all valid entities can be found here https://helpch.at/docs/1.12.2/org/bukkit/entity/EntityType.html
