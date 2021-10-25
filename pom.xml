@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.l2x9</groupId>
-    <artifactId>LeeesExploitFixer</artifactId>
-    <version>3.0.5-RELEASE</version>
+    <artifactId>Surf</artifactId>
+    <version>3.0.6-RELEASE</version>
     <packaging>jar</packaging>
 
-    <name>LeeesExploitFixer 3.0</name>
+    <name>Surf</name>
 
     <description>Patches and fixes for most anarchy servers</description>
     <properties>
