@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.l2x9</groupId>
-    <artifactId>Surf</artifactId>
-    <version>3.0.6-RELEASE</version>
+    <artifactId>SurfPatch</artifactId>
+    <version>3.0.7-Beta</version>
     <packaging>jar</packaging>
 
-    <name>Surf</name>
+    <name>SurfPatch</name>
 
     <description>Patches and fixes for most anarchy servers</description>
     <properties>
