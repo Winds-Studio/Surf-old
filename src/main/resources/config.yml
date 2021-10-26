@@ -1,5 +1,5 @@
-# LeeesExploitFixer 3.0.5 RELEASE
-# contact Leee#9594 on discord
+# SurfPatch 3.0.7 Beta
+# contact Dreeam on QQ2682173972
 # for help with this plugin
 
 #Messages to send the player when they try to place illegal blocks
@@ -70,22 +70,13 @@ Discord: "&6[&b7b&37t&6] Join us on discord at &chttp://discord.7b7t.me"
 #Ammount of vehicles allowed in a chunk
 Minecart-per-chunk:
   limit: 20
-#This is like discord slowmode but for the minecraft chat the cool down is in seconds
-Chat:
-  Enabled: true
-  Cooldown: 3
-  #Adding a word to this list will stop the message from being broadcasted to chat but it will be seen by the player who send the message so the player wont know that their message wasnt sent
-  Blocked-words:
-    - "discord"
-    - "."
-    - "dot"
 #TP on an entity exploit prevent message
 tp.prevent:
   message: "&6&l[&b&lLEF&6&l]&6 &6Patched"
 #World name for the /world command and the fortress dat deleter
-World-name: "0b0t"
+World-name: "world"
 #This will delete .dat files that cause memory issues every time the server shuts down
-DeleteFortressDat: true
+DeleteFortressDat: false
 #AntiIllegal check toggles
 #Only enable ChunkLoad of you have a massive problem with illegals on your server
 Antiillegal:
@@ -130,5 +121,3 @@ EntityAmounts:
     - "falling_block:50"
     - "primed_tnt:5"
     - "dropped_item:50"
-#Deop opped players when they leave
-DeopOnLeave: false
