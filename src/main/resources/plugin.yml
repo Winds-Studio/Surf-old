@@ -1,5 +1,5 @@
-name: Surf
-version: 3.0.6
+name: SurfPatch
+version: 3.0.7
 main: org.l2x9.l2x9core.Main
 authors: [ 254n_m, Leeewith3Es, Dreeam ]
 description:  ${project.description}
@@ -16,8 +16,3 @@ commands:
     description: e
   world:
     description: e
-  toggleconnectionmessages:
-    description: Toggles on / off connection messages for the sender of the command
-    aliases:
-      - tc
-      - toggleconnection
