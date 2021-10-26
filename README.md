@@ -1,5 +1,5 @@
 # Surf Patch
-### LeeesExploitFixer 3.0 is a fork of 254nm's L2X9Core
+### SurfPatch is a fork of LeeesExploitFixer of a fork of 254nm's L2X9Core
 ### i plan to keep this up to date patching the latest exploits
 for any help with this plugin join our support discord: https://discord.gg/H5RDy36apA
 ___
