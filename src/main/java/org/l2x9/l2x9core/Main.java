@@ -91,7 +91,6 @@ public class Main extends JavaPlugin {
 		PaperLib.suggestPaper(this);
 		// other stuff
 		getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
-		getCommand("toggleconnectionmessages").setExecutor(connectionMessages);
 		//Server specific events
 		if (pluginManager.getPlugin("SalC1Dupe") != null) {
 			if (getSalDupeVersion().equals("1.0-SNAPSHOT")) {
