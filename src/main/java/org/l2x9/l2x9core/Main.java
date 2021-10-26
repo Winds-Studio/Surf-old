@@ -35,7 +35,6 @@ public class Main extends JavaPlugin {
 	SecondPassEvent secondPassEvent = new SecondPassEvent(getLogger(), this);
 	private final HashMap<String, Integer> entityIntegerHashMap = new HashMap<>();
 	ScheduledExecutorService service = Executors.newScheduledThreadPool(4);
-	ConnectionMessages connectionMessages = new ConnectionMessages(this);
 	TenSecondPassEvent tenSecondPassEvent = new TenSecondPassEvent(getLogger(), this);
 	public CommandHandler commandHandler;
 	public final Queue<String> discordAlertQueue = new LinkedList<>();
