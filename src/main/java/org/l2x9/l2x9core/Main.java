@@ -76,7 +76,6 @@ public class Main extends JavaPlugin {
 		pluginManager.registerEvents(new ChestLagFix(this), this);
 		pluginManager.registerEvents(new dispensor(this), this);
 		pluginManager.registerEvents(new PacketElytraFly(this), this);
-		pluginManager.registerEvents(connectionMessages, this);
 		pluginManager.registerEvents(new DeopOnLeave(this), this);
 		// AntiIllegal events
 		pluginManager.registerEvents(new org.l2x9.l2x9core.listeners.antiillegal.BlockPlace(this), this);
