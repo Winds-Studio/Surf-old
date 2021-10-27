@@ -1,7 +1,7 @@
 package org.l2x9.l2x9core.listeners.patches;
 
 import lombok.RequiredArgsConstructor;
-import me.moomoo.anarchyexploitfixes.Main;
+import org.l2x9.l2x9core.util.Utils;
 import org.bukkit.Chunk;
 import org.bukkit.Material;
 import org.bukkit.World;
