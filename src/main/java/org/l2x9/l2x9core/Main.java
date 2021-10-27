@@ -59,6 +59,7 @@ public class Main extends JavaPlugin {
 			e.printStackTrace();
 		}
 		pluginManager.registerEvents(new BookBan(), this);
+		pluginManager.registerEvents(new Bedrock(), this);
 		pluginManager.registerEvents(new EntityPerChunkLimit(), this);
 		pluginManager.registerEvents(new ChinkBan(this), this);
 		pluginManager.registerEvents(new MoveEvent(this), this);
