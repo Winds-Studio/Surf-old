@@ -1,4 +1,4 @@
-package me.moomoo.anarchyexploitfixes.prevention;
+package org.l2x9.l2x9core.listeners.patches;
 
 import lombok.RequiredArgsConstructor;
 import me.moomoo.anarchyexploitfixes.Main;
