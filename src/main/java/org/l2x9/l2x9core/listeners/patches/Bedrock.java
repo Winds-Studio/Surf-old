@@ -15,6 +15,10 @@ import org.bukkit.event.world.ChunkLoadEvent;
 public class Bedrock implements Listener {
     Main plugin;
 
+    public Bedrock(Main plugin) {
+        this.plugin = plugin;
+    }
+
     @EventHandler
     private void onChunkLoadEvent(ChunkLoadEvent evt) {
         FileConfiguration config = plugin.getConfig();
