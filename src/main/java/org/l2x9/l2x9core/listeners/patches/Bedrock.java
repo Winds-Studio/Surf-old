@@ -13,7 +13,7 @@ import org.bukkit.event.world.ChunkLoadEvent;
 
 @RequiredArgsConstructor
 public class Bedrock implements Listener {
-    private final Main plugin;
+    Main plugin;
 
     @EventHandler
     private void onChunkLoadEvent(ChunkLoadEvent evt) {
