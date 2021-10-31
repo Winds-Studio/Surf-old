@@ -120,6 +120,6 @@ EntityAmounts:
     - "primed_tnt:5"
     - "dropped_item:50"
 
-//TODO
-//FillInBedrockFloor: false
-//FillInBedrockRoof: false
+#TODO
+#FillInBedrockFloor: false
+#FillInBedrockRoof: false
