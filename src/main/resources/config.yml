@@ -121,5 +121,5 @@ EntityAmounts:
     - "dropped_item:50"
 
 //TODO
-FillInBedrockFloor: false
-FillInBedrockRoof: false
+//FillInBedrockFloor: false
+//FillInBedrockRoof: false
