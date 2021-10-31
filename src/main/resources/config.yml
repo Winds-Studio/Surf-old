@@ -75,8 +75,6 @@ tp.prevent:
   message: "&6&l[&b&lLEF&6&l]&6 &6Patched"
 #World name for the /world command and the fortress dat deleter
 World-name: "world"
-#This will delete .dat files that cause memory issues every time the server shuts down
-DeleteFortressDat: false
 #AntiIllegal check toggles
 #Only enable ChunkLoad of you have a massive problem with illegals on your server
 Antiillegal:
@@ -122,5 +120,5 @@ EntityAmounts:
     - "primed_tnt:5"
     - "dropped_item:50"
 
-FillInBedrockFloor: true
-FillInBedrockRoof: true
+FillInBedrockFloor: false
+FillInBedrockRoof: false
