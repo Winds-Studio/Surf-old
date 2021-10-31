@@ -1,10 +1,6 @@
 package org.l2x9.l2x9core;
 
 import io.papermc.lib.PaperLib;
-import org.bukkit.Bukkit;
-import org.bukkit.Chunk;
-import org.bukkit.Material;
-import org.bukkit.World;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -63,7 +59,6 @@ public class Main extends JavaPlugin {
 			e.printStackTrace();
 		}
 		pluginManager.registerEvents(new BookBan(), this);
-		pluginManager.registerEvents(new Bedrock(), this);
 		pluginManager.registerEvents(new EntityPerChunkLimit(), this);
 		pluginManager.registerEvents(new ChinkBan(this), this);
 		pluginManager.registerEvents(new MoveEvent(this), this);
