@@ -6,7 +6,7 @@
 
     <groupId>org.l2x9</groupId>
     <artifactId>SurfPatch</artifactId>
-    <version>3.0.7-Beta</version>
+    <version>3.0.8-Beta</version>
     <packaging>jar</packaging>
 
     <name>SurfPatch</name>
