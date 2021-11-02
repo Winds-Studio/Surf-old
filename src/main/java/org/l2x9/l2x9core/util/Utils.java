@@ -47,12 +47,6 @@ public class Utils {
 		}
 	}
 
-	public static void crashPlayer(Player player) {
-		for (int i = 0; i < 100; i++) {
-			player.spawnParticle(Particle.EXPLOSION_HUGE, player.getLocation(), Integer.MAX_VALUE, 1, 1, 1);
-		}
-	}
-
 	public static void sendMessage(Player player, String string) {
 		player.sendMessage(ChatColor.translateAlternateColorCodes('&', string));
 	}
@@ -126,7 +120,7 @@ public class Utils {
 	}
 
 	public static String getPrefix() {
-		return "&6&l[&b&lLEF&6&l]&6 ";
+		return "&6&l[&b&lSurf&6&l]&6 ";
 	}
 
 	public static void deleteFortressDat(String worldName) {
