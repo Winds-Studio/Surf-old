@@ -22,7 +22,6 @@ ___
 * Disable Elytra at low tps to prevent more server crashes
 * Limit player spawnable entites per chunk to prevent players from lagging the server
 * Remove illegal potion effects from players
-* AntiSpam and AntiAdvertisment
 * Active devlopment
 * Patch for future client packet elytra fly
 * Remove falling block server crashers
