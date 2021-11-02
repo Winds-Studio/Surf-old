@@ -115,6 +115,7 @@ public class EntityDamageEvent implements Listener {
 				if (effects.getAmplifier() > 4) {
 					shooter.damage(70);
 					shooter.getInventory().remove(Material.TIPPED_ARROW);
+					vic.getInventory().addItem(milk);
 					Utils.sendMessage(shooter, plugin.getConfig().getString("IllegalPotion.Message"));
 				}
 			}
