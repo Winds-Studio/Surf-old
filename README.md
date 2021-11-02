@@ -26,7 +26,7 @@ ___
 * Active devlopment
 * Patch for future client packet elytra fly
 * Remove falling block server crashers
-## Alternatives for deleted functions
+## Alternatives for deleted features
 * LagAssist or React
 * TrChat
 * Openinv
