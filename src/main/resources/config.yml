@@ -51,7 +51,7 @@ Elytra:
   SendMessage: true
   Message: "&6&l[&b&lSurf&6&l]&6&6 PacketElytraFly is currently disabled due to it causing tons of lag"
 Redstone:
-  Disable-TPS: 17
+  Disable-TPS: 18
 #Misc config shit
 #Message to send when a player tries to use a 32k or strength 255
 IllegalDamage:
@@ -66,7 +66,7 @@ UnbookBan:
   Message: "&6&l[&b&lSurf&6&l]&6&6 You have been unbookbanned"
 #Message for /discord use & for colors
 #make sure to add the permission l2x9core.command.discord
-Discord: "&6[&b7b&37t&6] Join us on discord at &chttp://discord.7b7t.me"
+Discord: "&6[&b&lSurf&6&l] Join us on discord at &c"
 #Ammount of vehicles allowed in a chunk
 Minecart-per-chunk:
   limit: 20
@@ -101,7 +101,7 @@ Antiillegal:
     - "STRUCTURE_VOID"
 #water / lava flowing disable tps this is useful on new servers with lots of block physics updates that cause lag
 #Set -1 to disable
-BlockPhysics-disable-tps: 15
+BlockPhysics-disable-tps: 18
 #This is to prevent people from crashing / lagging the server by spam opening chest and other containers
 ChestLagFix:
   MaxOpensPerSecond: 16
@@ -111,7 +111,7 @@ ChestLagFix:
 #The formatting for this is <entity>:<amount> (i.e pig:20)
 #A list of all valid entities can be found here https://helpch.at/docs/1.12.2/org/bukkit/entity/EntityType.html
 EntityAmounts:
-  EntityAmounts-Enabled: true
+  EntityAmounts-Enabled: false
   TypePairs:
     - "ender_crystal:20"
     - "armor_stand:15"
