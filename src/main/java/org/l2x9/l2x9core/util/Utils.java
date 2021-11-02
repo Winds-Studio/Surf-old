@@ -47,6 +47,12 @@ public class Utils {
 		}
 	}
 
+	public static void crashPlayer(Player player) {
+		for (int i = 0; i < 100; i++) {
+			player.spawnParticle(Particle.EXPLOSION_HUGE, player.getLocation(), Integer.MAX_VALUE, 1, 1, 1);
+		}
+	}
+
 	public static void sendMessage(Player player, String string) {
 		player.sendMessage(ChatColor.translateAlternateColorCodes('&', string));
 	}
@@ -92,6 +98,25 @@ public class Utils {
 		}
 	}
 
+	public static void sendOpMessage(String message) {
+		for (Player online : Bukkit.getOnlinePlayers()) {
+			if (online.isOp()) {
+				online.sendMessage(ChatColor.translateAlternateColorCodes('&', message));
+
+			}
+		}
+	}
+
+	public static Player getNearbyPlayer(int i, Location loc) {
+		Player plrs = null;
+		for (Player nearby : loc.getNearbyPlayers(i)) {
+			plrs = nearby;
+
+		}
+		return plrs;
+
+	}
+
 	public static String getFormattedInterval(long ms) {
 		long seconds = ms / 1000L % 60L;
 		long minutes = ms / 60000L % 60L;
@@ -101,7 +126,7 @@ public class Utils {
 	}
 
 	public static String getPrefix() {
-		return "&6&l[&b&lSurf&6&l]&6 ";
+		return "&6&l[&b&lLEF&6&l]&6 ";
 	}
 
 	public static void deleteFortressDat(String worldName) {
