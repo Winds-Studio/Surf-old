@@ -23,35 +23,6 @@ Nether:
   Bottom-Layer: 0
   Bottom-message: '&6&l[&b&lSurf&6&l]&6 &6The nether bottom has been disabled due to lag'
   top-bottom-do-damage: true
-#Elytra/redstone disable TPS values keep in mind this is a double so it can be like 13.2255
-#Set 0 to disable 
-Elytra:
-  #the speed limit is 3 by default u can change it to what you want
-  SpeedLimit: 3
-  #enable / disable damage when going over the speed limit
-  EnableDamage: true
-  #change the amount of damage taken when going over the speed limit
-  DamageAmount: 15
-  #the tps that elytras gets completely disabled at
-  #you can turn this off by setting it to 1 basically
-  Disable-TPS: 17
-  #disable elytra fall damage ? set to false to enable fall damage when landing
-  EnableNoFallDamage: true
-  #enable taking off elytras when people go over the speed limit set to false to disable
-  EnableTakingOffElytra: false
-  #the message it sends to a player when they reach the elytra speed limit
-  SpeedLimitReached-message: "&6&l[&b&lSurf&6&l]&6 You are going to fast slow down"
-  #the message it sends to opped players when a player reaches the elytra speed limit
-  #you can turn this on or off by setting it to true or false
-  EnableOpMessages: true
-  SpeeedLimitReached-ops: "&6&l[&b&lSurf&6&l]&6 Player {name} is going to fast with an elytra"
-  #This will patch future clients packet elytra fly witch can be used to bypass most elytra speed limit plugins and make the elytra not lose any durability
-  PacketElytraFly-Enabled: true
-  #Sends a message to the player when they try to use PacketElytraFly
-  SendMessage: true
-  Message: "&6&l[&b&lSurf&6&l]&6&6 PacketElytraFly is currently disabled due to it causing tons of lag"
-Redstone:
-  Disable-TPS: 18
 #Misc config shit
 #Message to send when a player tries to use a 32k or strength 255
 IllegalDamage:
@@ -59,17 +30,11 @@ IllegalDamage:
 #Player attempts to use or drink an illegal potion or use an illegal tipped arrow
 IllegalPotion:
   Message: "&6&l[&b&lSurf&6&l]&6&6 Sorry those are patched"
-#Message to send the player when they use an elytra in low tps use {tps} to get the elytra disable tps
-ElytraLowTPS:
-  Message: "&6&l[&b&lSurf&6&l]&6 &6Elytras are disabled if the tps is below&r&c {tps}"
 UnbookBan:
   Message: "&6&l[&b&lSurf&6&l]&6&6 You have been unbookbanned"
 #Message for /discord use & for colors
 #make sure to add the permission l2x9core.command.discord
 Discord: "&6[&b&lSurf&6&l] Join us on discord at &c"
-#Ammount of vehicles allowed in a chunk
-Minecart-per-chunk:
-  limit: 20
 #TP on an entity exploit prevent message
 tp.prevent:
   message: "&6&l[&b&lSurf&6&l]&6 &6Patched"
@@ -99,26 +64,6 @@ Antiillegal:
     - "PORTAL"
     - "STRUCTURE_BLOCK"
     - "STRUCTURE_VOID"
-#water / lava flowing disable tps this is useful on new servers with lots of block physics updates that cause lag
-#Set -1 to disable
-BlockPhysics-disable-tps: 18
-#This is to prevent people from crashing / lagging the server by spam opening chest and other containers
-ChestLagFix:
-  MaxOpensPerSecond: 16
-  KickMessage: "&6&l[&b&lSurf&6&l]&6&c [AntiChestLag]&r&6 You have lost connection to the server"
-  RemoveUnicodeBooks: false
-#Max amount of any entity listed here per chunk
-#The formatting for this is <entity>:<amount> (i.e pig:20)
-#A list of all valid entities can be found here https://helpch.at/docs/1.12.2/org/bukkit/entity/EntityType.html
-EntityAmounts:
-  EntityAmounts-Enabled: false
-  TypePairs:
-    - "ender_crystal:20"
-    - "armor_stand:15"
-    - "wither:30"
-    - "falling_block:50"
-    - "primed_tnt:5"
-    - "dropped_item:50"
 
 #TODO
 #FillInBedrockFloor: false
