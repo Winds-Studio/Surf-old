@@ -14,10 +14,10 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.l2x9.l2x9core.Main;
 import org.l2x9.l2x9core.util.Utils;
 
-public class ChinkBan implements Listener {
+public class ChunkBan implements Listener {
 	Main plugin;
 
-	public ChinkBan(Main plugin) {
+	public ChunkBan(Main plugin) {
 		this.plugin = plugin;
 	}
 
