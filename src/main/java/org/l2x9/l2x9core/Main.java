@@ -13,7 +13,6 @@ import org.l2x9.l2x9core.command.NotInPluginYMLException;
 import org.l2x9.l2x9core.listeners.BlockPlace;
 import org.l2x9.l2x9core.listeners.*;
 import org.l2x9.l2x9core.listeners.antiillegal.*;
-import org.l2x9.l2x9core.listeners.antilag.*;
 import org.l2x9.l2x9core.listeners.patches.*;
 import org.l2x9.l2x9core.util.SecondPassEvent;
 import org.l2x9.l2x9core.util.TenSecondPassEvent;
