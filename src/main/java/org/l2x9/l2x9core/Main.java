@@ -62,10 +62,8 @@ public class Main extends JavaPlugin {
 		pluginManager.registerEvents(new MoveEvent(this), this);
 		pluginManager.registerEvents(new JoinEvent(this), this);
 		pluginManager.registerEvents(new EntityDamageEvent(this), this);
-		pluginManager.registerEvents(new BlockPhysics(this), this);
 		pluginManager.registerEvents(new BucketEvent(this), this);
 		pluginManager.registerEvents(new dispensor(this), this);
-		pluginManager.registerEvents(new PacketElytraFly(this), this);
 		// AntiIllegal events
 		pluginManager.registerEvents(new org.l2x9.l2x9core.listeners.antiillegal.BlockPlace(this), this);
 		pluginManager.registerEvents(new HopperTansfer(this), this);
