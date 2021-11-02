@@ -1,5 +1,5 @@
-# Lite Surf
-Lite Surf is a fork of LeeesExploitFixer of a fork of 254nm's L2X9Core
+# SurfPatch
+Surf Patch is a fork of LeeesExploitFixer of a fork of 254nm's L2X9Core
 
 A cute patch for Winds Anarchy>>*IP Breeze.asia*
 ___
