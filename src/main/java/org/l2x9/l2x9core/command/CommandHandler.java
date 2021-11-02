@@ -24,10 +24,7 @@ public class CommandHandler implements TabExecutor {
     public void registerCommands() throws NotInPluginYMLException {
         try {
             addCommand(new org.l2x9.l2x9core.command.commands.BaseCommand());
-            addCommand(new CrashCommand());
             addCommand(new DiscordCommand());
-            addCommand(new UUidCommand());
-            addCommand(new WorldSwitcher());
         } catch (Exception e) {
             throw new NotInPluginYMLException("Command not in plugin.yml");
         }
