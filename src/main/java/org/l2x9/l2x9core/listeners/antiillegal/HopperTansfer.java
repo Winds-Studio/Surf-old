@@ -46,10 +46,6 @@ public class HopperTansfer implements Listener {
                                 event.setCancelled(true);
 
                             }
-                            if (plugin.getItemUtils().isOverstacked(item)) {
-                                item.setAmount(item.getMaxStackSize());
-                                event.setCancelled(true);
-                            }
                             if (plugin.getItemUtils().hasIllegalEnchants(item)) {
                                 inv.remove(item);
                                 event.setCancelled(true);
@@ -90,10 +86,6 @@ public class HopperTansfer implements Listener {
                                                     inv.remove(item);
                                                 }
                                                 if (plugin.getItemUtils().hasIllegalNBT(shulkerItem)) {
-                                                    inv.remove(item);
-                                                    event.setCancelled(true);
-                                                }
-                                                if (plugin.getItemUtils().isOverstacked(shulkerItem)) {
                                                     inv.remove(item);
                                                     event.setCancelled(true);
                                                 }
