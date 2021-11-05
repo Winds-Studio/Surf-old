@@ -1,4 +1,4 @@
-# SurfPatch 3.0.10 Beta
+# SurfPatch 3.0.11 Beta
 # contact Dreeam on QQ2682173972
 # for help with this plugin
 
@@ -50,7 +50,6 @@ Antiillegal:
   InventoryOpen-Enabled: true
   PlayerHotbarMove-Enabled: true
   ItemPickup: true
-  Delete-Stacked-Items: true
   Check-Illegal-Damage: true
   Illegal-Items-List:
     - "BEDROCK"
@@ -59,8 +58,6 @@ Antiillegal:
     - "COMMAND_CHAIN"
     - "COMMAND"
     - "ENDER_PORTAL_FRAME"
-    - "KNOWLEDGE_BOOK"
-    - "MOB_SPAWNER"
     - "PORTAL"
     - "STRUCTURE_BLOCK"
     - "STRUCTURE_VOID"
