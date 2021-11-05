@@ -15,14 +15,6 @@ ChunkBan:
   Prevent-Message: '&6&l[&b&lSurf&6&l]&6 &6ChunkBan has been disabled due to an exploit (^:'
   TileEntity-Max: 500
   Skull-Max: 100
-#Nether top and bottom layers
-Nether:
-  Enabled: true
-  Top-Layer: 127
-  Top-message: '&6&l[&b&lSurf&6&l]&6 &6The nether top has been disabled due to lag'
-  Bottom-Layer: 0
-  Bottom-message: '&6&l[&b&lSurf&6&l]&6 &6The nether bottom has been disabled due to lag'
-  top-bottom-do-damage: true
 #Misc config shit
 #Message to send when a player tries to use a 32k or strength 255
 IllegalDamage:
