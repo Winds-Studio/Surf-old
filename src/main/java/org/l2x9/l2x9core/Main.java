@@ -59,7 +59,6 @@ public class Main extends JavaPlugin {
 		}
 		pluginManager.registerEvents(new BookBan(), this);
 		pluginManager.registerEvents(new ChunkBan(this), this);
-		pluginManager.registerEvents(new MoveEvent(this), this);
 		pluginManager.registerEvents(new JoinEvent(this), this);
 		pluginManager.registerEvents(new EntityDamageEvent(this), this);
 		pluginManager.registerEvents(new BucketEvent(this), this);
