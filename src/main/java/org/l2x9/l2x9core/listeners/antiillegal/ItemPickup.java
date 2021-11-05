@@ -52,10 +52,6 @@ public class ItemPickup implements Listener {
                                     event.setCancelled(true);
 
                                 }
-                                if (plugin.getItemUtils().isOverstacked(shulkerItem)) {
-                                    event.getItem().remove();
-                                    event.setCancelled(true);
-                                }
                                 if (plugin.getItemUtils().hasIllegalEnchants(shulkerItem)) {
                                     event.getItem().remove();
                                     event.setCancelled(true);
