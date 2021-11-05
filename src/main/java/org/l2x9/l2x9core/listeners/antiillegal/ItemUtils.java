@@ -70,14 +70,6 @@ public class    ItemUtils {
         return false;
     }
 
-    public boolean isOverstacked(ItemStack item) {
-        if (plugin.getConfigBoolean("Antiillegal.Delete-Stacked-Items")) {
-            return item.getAmount() > item.getMaxStackSize();
-        } else {
-            return false;
-        }
-    }
-
     public boolean hasIllegalEnchants(ItemStack item) {
         Map<Enchantment, Integer> enchants = item.getEnchantments();
         for (int level : enchants.values()) {
@@ -125,10 +117,6 @@ public class    ItemUtils {
                             itemStack = item;
 
                         }
-                        if (utils.isOverstacked(item)) {
-                            item.setAmount(item.getMaxStackSize());
-                            itemStack = item;
-                        }
                         if (utils.hasIllegalEnchants(item)) {
                             for (Entry<Enchantment, Integer> enchantmentIntegerEntry : item.getEnchantments().entrySet()) {
                                 item.removeEnchantment(enchantmentIntegerEntry.getKey());
@@ -175,11 +163,6 @@ public class    ItemUtils {
                                             }
                                             if (utils.hasIllegalNBT(shulkerItem)) {
                                                 shulker.getInventory().remove(shulkerItem);
-                                                illegalsFound = true;
-                                                itemStack = item;
-                                            }
-                                            if (utils.isOverstacked(shulkerItem)) {
-                                                shulkerItem.setAmount(shulkerItem.getType().getMaxStackSize());
                                                 illegalsFound = true;
                                                 itemStack = item;
                                             }
