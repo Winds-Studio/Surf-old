@@ -91,13 +91,6 @@ public class Main extends JavaPlugin {
 		service.scheduleAtFixedRate(() -> pluginManager.callEvent(tenSecondPassEvent), 1, 10, TimeUnit.SECONDS);
 	}
 
-	public void onDisable() {
-		getLogger().info("by Nate Legault disabled");
-		if (getConfigBoolean("DeleteFortressDat")) {
-			Utils.deleteFortressDat(getConfig().getString("World-name"));
-		}
-	}
-
 	private String getSalDupeVersion() {
 		InputStream inputStream = pluginManager.getPlugin("SalC1Dupe").getResource("plugin.yml");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
