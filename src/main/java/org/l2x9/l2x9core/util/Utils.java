@@ -123,49 +123,6 @@ public class Utils {
 		return "&6&l[&b&lSurf&6&l]&6 ";
 	}
 
-	public static void deleteFortressDat(String worldName) {
-		Utils.println(Utils.getPrefix() + "&aStarting to delete files that cause memory issues...");
-		String nether = worldName.concat("_nether");
-		String end = worldName.concat("_the_end");
-		File fortress = new File(nether + "/data/Fortress.dat");
-		File villagesNether = new File(nether + "/data/villages_nether.dat");
-		if (fortress.delete()) {
-			Utils.println(Utils.getPrefix() + "&eDeleted file " + fortress.getName());
-		} else {
-			Utils.println(Utils.getPrefix() + "&cCould not find file " + fortress.getPath());
-		}
-		if (villagesNether.delete()) {
-			Utils.println(Utils.getPrefix() + "&eDeleted file " + villagesNether.getName());
-		} else {
-			Utils.println(Utils.getPrefix() + "&cCould not find file " + villagesNether.getPath());
-		}
-		File endCity = new File(end + "/data/EndCity.dat");
-		File villagesEnd = new File(end + "/data/villages_end.dat");
-		if (endCity.delete()) {
-			Utils.println(Utils.getPrefix() + "&eDeleted file " + endCity.getName());
-		} else {
-			Utils.println(Utils.getPrefix() + "&cCould not find file " + endCity.getPath());
-		}
-		if (villagesEnd.delete()) {
-			Utils.println(Utils.getPrefix() + "&eDeleted file " + villagesEnd.getName());
-		} else {
-			Utils.println(Utils.getPrefix() + "&cCould not find file " + villagesEnd.getPath());
-		}
-		File village = new File(worldName + "/data/Village.dat");
-		File villages = new File(worldName + "/data/villages.dat");
-		if (village.delete()) {
-			Utils.println(Utils.getPrefix() + "&eDeleted file " + village.getName());
-		} else {
-			Utils.println(Utils.getPrefix() + "&cCould not find file " + village.getPath());
-		}
-		if (villages.delete()) {
-			Utils.println(Utils.getPrefix() + "&eDeleted file " + villages.getName());
-		} else {
-			Utils.println(Utils.getPrefix() + "&cCould not find file " + villages.getPath());
-		}
-		Utils.println(Utils.getPrefix() + "&aDeletion process complete!");
-	}
-
 	public static void cockRunMcCommand(String cmd) {
 		Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), cmd);
 
