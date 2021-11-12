@@ -44,6 +44,7 @@ Antiillegal:
   ItemPickup: true
   Check-Illegal-Damage: true
   Illegal-Items-List:
+    - "BARRIER"
     - "BEDROCK"
     - "COMMAND_REPEATING"
     - "COMMAND_MINECART"
