@@ -135,6 +135,7 @@ public class    ItemUtils {
                                 itemStack = item;
                                 while (enchants.hasNext()) {
                                     item.removeEnchantment(enchants.next().getKey());
+                                }
                             }
                         }
                     }
