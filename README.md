@@ -1,3 +1,7 @@
+## ⚠️WARNING⚠️
+
+Archived repo, plesase see https://github.com/Winds-Studio/Surf
+
 # SurfPatch
 Surf Patch is a fork of LeeesExploitFixer of a fork of 254nm's L2X9Core
 
